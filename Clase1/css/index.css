@@ -10,14 +10,12 @@ html{
     font-size: 16px;
 }
 
-body
-{
+body{
     background: rgb(69, 85, 228)    
 }
 
-h1{
-    color: gold;
-}
+
+
 
 header{
     background: white;
@@ -41,6 +39,7 @@ header{
 }
 
 .logo a{
+    text-decoration: none;
     text-decoration: white;
 }
 
@@ -58,7 +57,7 @@ header{
 }
 
 .navbar ul a{
-    text-align: right;
+    text-align: none;
     display: block;
     padding: 10px;
     color: white;
@@ -77,7 +76,7 @@ header{
     box-sizing: border-box;
 }
 
-.destacado{
+.destacado, .default{
     background: white;
     padding: 0.7em;
 }
@@ -89,11 +88,36 @@ header{
 
 .fuente{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+    
 }
 
 .caja{
     border-top: 4px solid;
-    border-left: 2%;
+    border-right: 2px solid;
+    border-bottom: 6px solid;
+    border-left: 8px solid;
+    padding-top: 30px;
+    padding-right: 20px;
+    padding-top: 40px;
+    padding-left: 50px;
+    margin-top: 50px;
+    margin-right: 80px;
+    margin-bottom: 100px;
+    margin-left: 40px;
+    font-family: Roboto;
+}
 
+#miid{
+    color: white;
+}
 
+.formulario{
+    margin-top: 30px;
+    margin-left: 50px;
+
+}
+
+.dato{
+    width: 80%;
+    height: 50px;
 }
